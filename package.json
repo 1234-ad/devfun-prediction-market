@@ -1,0 +1,41 @@
+{
+  "name": "devfun-prediction-market",
+  "version": "1.0.0",
+  "description": "On-chain prediction market app for dev.fun challenge",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "^14.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "@solana/web3.js": "^1.87.0",
+    "@solana/wallet-adapter-react": "^0.15.0",
+    "@solana/wallet-adapter-wallets": "^0.19.0",
+    "zustand": "^4.4.0",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5.0.0",
+    "@types/react": "^18.0.0",
+    "@types/node": "^20.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "eslint-config-next": "^14.0.0",
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.0"
+  },
+  "keywords": [
+    "prediction-market",
+    "solana",
+    "dev.fun",
+    "pump.fun",
+    "betting",
+    "defi"
+  ],
+  "author": "eefbb",
+  "license": "MIT"
+}
